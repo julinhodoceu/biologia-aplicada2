@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
+body {
+    background-image: linear-gradient(to bottom, #c061ff, white);
+    height: 100em;
+}
+
+header {
+
+    width: 100%;
+    text-align: center;
+}
+
+.fontebranca {
+    color: white;
+    font-size: 2em;
+}
+
+.cor_amarelo {
+    background-color: rgb(252, 252, 77);
+}
+
+.fontsite {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.8em;
+}
+
+.barrapesquisa {
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    margin-bottom: 5px;
+}
+
+.botaopesquisa:hover {
+    background-color: rgb(240, 168, 255)!important;
+
+}
+
+.navbarpadrao:hover {
+    background-color: rgb(240, 168, 255);
+}
+
+.navbarpadrao {
+    color: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+    margin-bottom: 5px;
+}
+
+.navbarpadrao:first-child {
+    margin-left: 20px;
+}
+
+.imagem-carrossel {
+    height: 70vh;
+    object-fit: cover;
+    object-position: 0 45%;
+}
