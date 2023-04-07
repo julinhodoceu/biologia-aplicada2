@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap');
 
 
+
 body {
     background-image: linear-gradient(to bottom, #c061ff, white);
     height: 100em;
@@ -11,6 +12,14 @@ body {
 header {
     width: 100%;
     text-align: center;
+    z-index: 100;
+    position: fixed;
+}
+
+
+main {
+    z-index: 1;
+    padding-top: 50px;
 }
 
 .fontebranca {
@@ -19,7 +28,7 @@ header {
 }
 
 .cor_amarelo {
-    background-color: rgb(252, 252, 77);
+    background-color: rgb(31, 139, 40);
 }
 
 .fontsite {
@@ -39,12 +48,16 @@ header {
 }
 
 .botaopesquisa:hover {
-    background-color: rgb(240, 168, 255)!important;
+    background-color: rgb(118, 54, 179)!important;
 
 }
 
+h4 {
+    color: rgb(25, 126, 67);
+}
+
 .navbarpadrao:hover {
-    background-color: rgb(240, 168, 255);
+    background-color: rgb(118, 54, 179);
 }
 
 .navbarpadrao {
@@ -61,8 +74,12 @@ header {
     margin-left: 20px;
 }
 
+.linksemdecoracao {
+    text-decoration: none;
+}
+
 .imagem-carrossel {
-    height: 70vh;
+    height: 80vh;
     object-fit: cover;
     object-position: 0 45%;
 }
@@ -80,3 +97,10 @@ header {
         object-fit: cover;  
         object-position: 50% 50%;
 }
+
+    .fontebranca {
+        font-size: 1.1em;
+    }
+}
+
+

@@ -33,10 +33,10 @@
             Minha Conta
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="#">Registrar</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Meus Pedidos</a></li>
           </ul>
         </li>
 
@@ -51,35 +51,54 @@
 </header>
 
     <main>
-        <section id="carouselExampleDark" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
+        <section id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-indicators botaocarrossel">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="2000">
+                <a href="#" class="linksemdecoracao">
+              <div class="carousel-item active" data-bs-interval="4000">
                 <img src="imagens/holly pocus.jpg" class="d-block w-100 imagem-carrossel" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h5 class="fontebranca">Bem Vindos a Hocus Pocus</h5>
                   <p class="fontebranca">Estão prontos para navegar na aventura de Lucky?</p>
+                </a>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="4000">
+                <a href="#" class="linksemdecoracao">
                 <img src="imagens/castelo.jpg" class="d-block w-100 imagem-carrossel" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                   <h5 class="fontebranca">Reino Atlantis</h5>
                   <p class="fontebranca">Conheça mais sobre o universo de Lucky</p>
+                </a>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <button class="carousel-control-prev botaocarrossel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <button class="carousel-control-next botaocarrossel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+        </section>
+
+        <section class="bg-light p-4 d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="imagens/stenio.png" class="card-img-top flex-shrink-0" alt="Foto">
+                </div>
+                <div class="col-md-7 justify-content-center d-block pt-5">
+                  <h1 class="flex-grow-1"> Carlos Stenio</h1>
+                  <h4 class="pb-4">Biólogo, Mestrando Unicamp, pesquisador científico</h4>
+                  <p>Tudo começou quando comecei a assistir Teresa, e ouvi ela dizer: Entre ser e não ser, eu sou! <br> Foi aí que tive um choque de realidade em qual diva eu realmente deveria me inspirar</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ut! Accusantium, iusto tenetur hic mollitia sed dignissimos ea quis? Inventore iure praesentium odio aliquam tempora qui incidunt soluta veniam accusamus.</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corporis repellendus reiciendis quasi dolorem iure et amet distinctio, maiores libero earum perspiciatis aut architecto numquam temporibus? Vero cum quasi aut.</p>
+                </div>
+              </div>
         </section>
     </main>
 
