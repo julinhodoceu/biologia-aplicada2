@@ -5,7 +5,7 @@
 
 
 body {
-    background-image: linear-gradient(to bottom, #c061ff, white);
+    background-color: rgb(105, 105, 105);
     height: 100em;
 }
 
@@ -21,7 +21,9 @@ main {
     z-index: 1;
     padding-top: 50px;
 }
-
+.botaopesquisa {
+    color: white;
+}
 .fontebranca {
     color: white;
     font-size: 2em;
@@ -38,18 +40,15 @@ main {
 }
 
 .barrapesquisa {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Josefin Sans', sans-serif;
-    background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.349);
     margin-bottom: 5px;
 }
 
 .botaopesquisa:hover {
-    background-color: rgb(118, 54, 179)!important;
-
+    background-color: rgb(54, 179, 60)!important;
 }
 
 h4 {
@@ -57,16 +56,20 @@ h4 {
 }
 
 .navbarpadrao:hover {
-    background-color: rgb(118, 54, 179);
+    background-color: rgb(54, 179, 60);
+    color: white;
+}
+
+.listaabaixo:hover {
+    background-color: rgb(54, 179, 60);
+    color: white;
 }
 
 .navbarpadrao {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Josefin Sans', sans-serif;
-    background-color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-right: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.349);
     margin-bottom: 5px;
 }
 
