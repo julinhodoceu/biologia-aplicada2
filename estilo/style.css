@@ -134,6 +134,9 @@ color: white;
     display: none;
 }
 
+.imagemalice {
+    margin-top: -50px;
+}
 @media (max-width: 700px) {
 
     .fontsite {
