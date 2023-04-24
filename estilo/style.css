@@ -136,6 +136,8 @@ color: white;
 
 .imagemalice {
     margin-top: -50px;
+    width: 300px;
+    height: 441px;
 }
 @media (max-width: 700px) {
 
