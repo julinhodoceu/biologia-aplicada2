@@ -1,107 +1,216 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biologia Aplicada</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biologia Aplicada</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo/style.css">
 </head>
+
 <body>
 
-    <header>
+  <header>
     <nav class="navbar navbar-expand-lg cor_amarelo pt-0 pb-0">
-  <div class="container-fluid mt-1">
-    <a class="navbar-brand fontsite text-white" href="#">BIOLOGIA APLICADA</a>
-    <button class="navbar-toggler hamburguer" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link navbarpadrao text-white" aria-current="page" href="#">Produtos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link navbarpadrao text-white" href="#">Novidades</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navbarpadrao text-white" href="#">Contato</a>
-          </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle navbarpadrao text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Minha Conta
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Login</a></li>
-            <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Registrar</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Meus Pedidos</a></li>
+      <div class="container-fluid mt-1">
+        <a class="navbar-brand fontsite text-white" href="#">BIOLOGIA APLICADA</a>
+        <button class="navbar-toggler hamburguer" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link navbarpadrao text-white" aria-current="page" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarpadrao text-white" href="#">Novidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarpadrao text-white" href="#">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navbarpadrao text-white" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Minha Conta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Login</a></li>
+                <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Registrar</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Meus Pedidos</a></li>
+              </ul>
+            </li>
+
           </ul>
-        </li>
+          <form class="d-flex barrapesquisa" role="search">
+            <input class="form-control me-2" type="search" placeholder="Ex: Alice no país da biologia"
+              aria-label="Search">
+            <button class="btn botaopesquisa" type="submit">Procurar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-      </ul>
-      <form class="d-flex barrapesquisa" role="search">
-        <input class="form-control me-2" type="search" placeholder="Ex: Alice no país da biologia" aria-label="Search">
-        <button class="btn botaopesquisa" type="submit">Procurar</button>
-      </form>
+  <main>
+    <section id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+      <div class="carousel-indicators botaocarrossel">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <a href="#" class="linksemdecoracao">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="imagens/holly pocus2.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h5 class="fontebranca">Bem Vindos a Hocus Pocus</h5>
+              <p class="fontebranca">Estão prontos para navegar na aventura de Lucky?</p>
+        </a>
+      </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <a href="#" class="linksemdecoracao">
+          <img src="imagens/castelo2.jpg" class="d-block w-100 imagem-carrossel" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5 class="fontebranca">Reino Atlantis</h5>
+            <p class="fontebranca">Conheça mais sobre o universo de Lucky</p>
+        </a>
+      </div>
+      </div>
+      </div>
+      <button class="carousel-control-prev botaocarrossel" type="button" data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next botaocarrossel" type="button" data-bs-target="#carouselExampleDark"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+    <section class="bg-light p-4 d-flex justify-content-center">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="imagens/stenio.png" class="card-img-top flex-shrink-0 imagemstenio" alt="Foto">
+        </div>
+        <div class="col-md-7 justify-content-center d-block pt-5">
+          <h1 class="flex-grow-1"> Carlos Stênio</h1>
+          <h4 class="pb-4">Biólogo, Mestrando Unicamp, pesquisador científico</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero fuga excepturi fugit veniam ullam
+            molestiae enim maxime ex illo consectetur, id sed non unde nulla? Dolores similique ea quasi id. <br> Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel perferendis velit mollitia, aut animi
+            repudiandae laborum fugit deserunt nobis ea iusto sequi, modi perspiciatis aliquam voluptatibus eum.
+            Distinctio, debitis.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ut! Accusantium, iusto tenetur hic
+            mollitia sed dignissimos ea quis? Inventore iure praesentium odio aliquam tempora qui incidunt soluta veniam
+            accusamus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corporis repellendus reiciendis quasi
+            dolorem iure et amet distinctio, maiores libero earum perspiciatis aut architecto numquam temporibus? Vero
+            cum quasi aut.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="fundoprodutos p-4">
+      <h1 class="text-center">Conheça Nossos Livros</h1>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-7 justify-content-center d-block pt-5">
+          <h2 class="flex-grow-1 mt-4 text-center pb-2 pt-2"> <a href="#" class="link-light text-decoration-none titulolivro"><strong>Alice No País da Biologia</strong></a></h2>
+
+          <div class="text-center fs-4 pt-3">
+          <p>"Alice no País da Biologia" é uma fascinante obra que combina elementos da biologia com uma abordagem
+            imaginativa e única, inspirada na famosa obra "Alice no País das Maravilhas" de Lewis Carroll. Neste livro,
+            o leitor é guiado por uma jornada pela biologia de forma lúdica e inovadora, através dos olhos de Alice, uma
+            jovem curiosa e aventureira.</p>
+
+              <div class="row justify-content-center align-items-center">
+                  <button class="btn btn-light col-5 mt-3">Saiba mais</button>
+              </div>
+
+        </div>
+        </div>
+        <div class="col-md-4">
+          <img src="imagens/em pé.png" class="card-img-top flex-shrink-0 imagemstenio mt-2" alt="Foto">
+        </div>
+      </div>
+    </section>
+
+    <section class=" p-4 fundoprodutos2 text-light">
+      <div class="row d-flex justify-content-center pb-3 pt-3">
+        <div class="col-md-7 justify-content-center d-block pt-2">
+          <h2 class="flex-grow-1 mt-4 text-center pb-2 pt-2"> <a href="#" class="link-light text-decoration-none titulolivro"><strong>Diário de um Biólogo</strong></a></h2>
+
+          <div class="text-center fs-4 pt-2 pb-5">
+          <p>"Diário de um Biólogo" é um livro de autoria fictícia que narra a vida e as experiências de um biólogo apaixonado pela natureza. O protagonista, um jovem cientista, registra em seu diário as suas aventuras e descobertas enquanto estuda a fauna e a flora em uma densa floresta tropical.</p>
+
+              <div class="row justify-content-center align-items-center">
+                  <button class="btn btn-light col-5 mt-3">Saiba mais</button>
+              </div>
+
+        </div>
+        </div>
+        <div class="col-md-4 marginlivro">
+          <img src="imagens/diariodeumbiologo.png" class="card-img-top flex-shrink-0 imagemstenio mt-2 p-3 mt-4" alt="Foto">
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <footer class="bg-light text-dark">
+    <div class="container pt-3">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <h5>Links úteis</h5>
+          <p><a href="#" target="_blank" class="footerajuste">Home</a> <br>
+          <a href="#" target="_blank" class="footerajuste">Contato</a> <br>
+           <a href="#" target="_blank" class="footerajuste">Sobre</a></p>
+           <p class="linhadecorte">______________________________________</p>
+        </div>
+        <div class="col-md-5 text-center">
+          <h5 class="pb-3">Informações de contato</h5>
+          <p>Endereço: Avenida Atlantis, 2202</p>
+          <p>Email: contatolilisudy@biologiaaplicada.com</p>
+          <p class="linhadecorte">______________________________________</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+          <h5 class="mb-4">Redes Sociais</h5>
+          <div class="col-md-4">
+          <img src="imagens/instagram.png" alt="" class="imagemfooter mb-1"> <p><a href="https://instagram.com/steniosuxx" target="_blank" class="footerajuste">Instagram</a></p> 
+        </div>
+        <div class="col-md-4">
+          <img src="imagens/tik-tok.png" alt="" class="imagemfooter mb-1"><p> <a href="https://www.tiktok.com/@steniosuxx"target="_blank"  class="footerajuste">TikTok</a> </p>
+        </div>
+          <div class="col-md-4">
+          <img src="imagens/youtube.png" alt="" class="imagemfooter mb-1"> <p><a href="https://www.youtube.com/@BiologandocomSteniosuxx" target="_blank" class="footerajuste">Youtube</a></p>
+        </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-</header>
+  </footer>
 
-    <main>
-        <section id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
-            <div class="carousel-indicators botaocarrossel">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <a href="#" class="linksemdecoracao">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <img src="imagens/holly pocus2.jpg" class="d-block w-100 imagem-carrossel" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5 class="fontebranca">Bem Vindos a Hocus Pocus</h5>
-                  <p class="fontebranca">Estão prontos para navegar na aventura de Lucky?</p>
-                </a>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <a href="#" class="linksemdecoracao">
-                <img src="imagens/castelo2.jpg" class="d-block w-100 imagem-carrossel" alt="...">
-                <div class="carousel-caption d-md-block">
-                  <h5 class="fontebranca">Reino Atlantis</h5>
-                  <p class="fontebranca">Conheça mais sobre o universo de Lucky</p>
-                </a>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev botaocarrossel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next botaocarrossel" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </section>
 
-        <section class="bg-light p-4 d-flex justify-content-center">
-            <div class="row">
-                <div class="col-md-5">
-                    <img src="imagens/stenio.png" class="card-img-top flex-shrink-0 imagemstenio" alt="Foto">
-                </div>
-                <div class="col-md-7 justify-content-center d-block pt-5">
-                  <h1 class="flex-grow-1"> Carlos Stênio</h1>
-                  <h4 class="pb-4">Biólogo, Mestrando Unicamp, pesquisador científico</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero fuga excepturi fugit veniam ullam molestiae enim maxime ex illo consectetur, id sed non unde nulla? Dolores similique ea quasi id. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vel perferendis velit mollitia, aut animi repudiandae laborum fugit deserunt nobis ea iusto sequi, modi perspiciatis aliquam voluptatibus eum. Distinctio, debitis.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ut! Accusantium, iusto tenetur hic mollitia sed dignissimos ea quis? Inventore iure praesentium odio aliquam tempora qui incidunt soluta veniam accusamus.</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corporis repellendus reiciendis quasi dolorem iure et amet distinctio, maiores libero earum perspiciatis aut architecto numquam temporibus? Vero cum quasi aut.</p>
-                </div>
-              </div>
-        </section>
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
