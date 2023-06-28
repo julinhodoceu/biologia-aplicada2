@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: rgb(31, 139, 40);
+    background-color: rgb(255, 255, 255);
     height: 100em;
     font-family: 'Josefin Sans', sans-serif;
 
@@ -139,6 +139,18 @@ color: white;
     width: 300px;
     height: 441px;
 }
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease-in, transform 0.7s ease-in;
+}
+
+.fade-in.visible {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 @media (max-width: 700px) {
 
     .fontsite {
