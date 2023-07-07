@@ -1,110 +1,222 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo/style.css">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg cor_amarelo pt-0 pb-0">
-          <div class="container-fluid mt-1">
-            <a class="navbar-brand fontsite text-white" href="index.html">BIOLOGIA APLICADA</a>
-            <button class="navbar-toggler hamburguer" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link navbarpadrao text-white" aria-current="page" href="produtos.html">Produtos</a>
+
+<body class="bgbody">
+  <header>
+    <nav class="navbar navbar-expand-lg cor_amarelo pt-0 pb-0">
+      <div class="container-fluid mt-1">
+        <a class="navbar-brand fontsite text-white" href="index.html">BIOLOGIA APLICADA</a>
+        <button class="navbar-toggler hamburguer" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link navbarpadrao text-white" aria-current="page" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarpadrao text-white" href="#">Novidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarpadrao text-white" href="#">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navbarpadrao text-white" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Minha Conta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Login</a></li>
+                <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Registrar</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link navbarpadrao text-white" href="#">Novidades</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navbarpadrao text-white" href="#">Contato</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle navbarpadrao text-white" href="#" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Minha Conta
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Login</a></li>
-                    <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Registrar</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Meus Pedidos</a></li>
-                  </ul>
-                </li>
-    
+                <li><a class="dropdown-item listaabaixo justify-content-center d-flex" href="#">Meus Pedidos</a></li>
               </ul>
-              <form class="d-flex barrapesquisa" role="search">
-                <input class="form-control me-2" type="search" placeholder="Ex: Alice no país da biologia"
-                  aria-label="Search">
-                <button class="btn botaopesquisa" type="submit">Procurar</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <main>
+            </li>
 
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="imagens/mockup 5.jpg" class="d-block w-100 imagem-carrossel2" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="texto-preto">A Pequena Sereia: Uma Aventura Na Biologia</h5>
-                <h6 class="texto-preto">Estréia: 21 de Setembro de 2023</h6>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          </ul>
+          <form class="d-flex barrapesquisa" role="search">
+            <input class="form-control me-2" type="search" placeholder="Ex: Alice no país da biologia"
+              aria-label="Search">
+            <button class="btn botaopesquisa" type="submit">Procurar</button>
+          </form>
         </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagens/mockup 5.jpg" class="d-block w-100 imagem-carrossel2" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="texto-preto">A Pequena Sereia: Uma Aventura Na Biologia</h5>
+            <h6 class="texto-preto">Estréia: 21 de Setembro de 2023</h6>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
 
-          <div class="card" style="width: 18rem;">
-            <img src="imagens/em pé.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+
+
+
+
+
+
+
+    <section class="parte-meio">
+
+
+      <div class="container">
+
+
+
+
+
+
+        <div class="row">
+          <div class="col-4">
+            <div class="card bgprodutos">
+              <img src="imagens/diariodeumbiologo.png" class="card-img-top" alt="Imagem do produto">
+              <div class="card-body">
+                <h4 class="card-title">Diário de Um Biólogo <br>‎</h4>
+                <h3 class="card-text">R$ 49,99</h3>
+                <h6> Em até 10x Sem Juros</h6>
+                <div class="d-grid col-12 mx-auto">
+                  <button class="btn btn-light" type="button">Adicionar ao Carrinho</button>
+                </div>
+              </div>
             </div>
           </div>
-        
-      </main>
+
+
+
+          <div class="col-4">
+            <div class="card bgprodutos">
+              <img src="imagens/produto-alice.png" class="card-img-top img-fluid" alt="Imagem do produto">
+              <div class="card-body">
+                <h4 class="card-title">Alice no País da Biologia <br>‎ </h4>
+                <h3 class="card-text">R$ 69,99</h3>
+                <h6> Em até 10x Sem Juros</h6>
+                <div class="d-grid col-12 mx-auto">
+                  <button class="btn btn-light" type="button">Adicionar ao Carrinho</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card bgprodutos">
+              <img src="imagens/produto-manual.png" class="card-img-top" alt="Imagem do produto">
+              <div class="card-body">
+                <h4 class="card-title">Manual do Biologia Aplicada (E-book) </h4>
+                <h3 class="card-text">R$ 49,99</h3>
+                <h6> Em até 10x Sem Juros</h6>
+                <div class="d-grid col-12 mx-auto">
+                  <button class="btn btn-light" type="button">Adicionar ao Carrinho</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+    </section>
+  </main>
+
+
+
+
+
+  <footer class="bg-light text-dark">
+    <div class="container pt-3">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <h5>Links úteis</h5>
+          <p><a href="#" class="footerajuste">Home</a> <br>
+          <a href="#" class="footerajuste">Contato</a> <br>
+           <a href="#" class="footerajuste">Sobre</a></p>
+           <p class="linhadecorte">_______________________________</p>
+        </div>
+        <div class="col-md-5 text-center">
+          <h5 class="pb-3">Informações de contato</h5>
+          <p>Endereço: Avenida Atlantis, 2202</p>
+          <p>Email: contatolilisudy@biologiaaplicada.com</p>
+          <p class="linhadecorte">_______________________________</p>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+          <h5 class="mb-4">Redes Sociais</h5>
+          <div class="col-md-4">
+          <img src="imagens/instagram.png" alt="" class="imagemfooter mb-1"> <p><a href="https://instagram.com/steniosuxx" target="_blank" class="footerajuste">Instagram</a></p> 
+        </div>
+        <div class="col-md-4">
+          <img src="imagens/tik-tok.png" alt="" class="imagemfooter mb-1"><p> <a href="https://www.tiktok.com/@steniosuxx"target="_blank"  class="footerajuste">TikTok</a> </p>
+        </div>
+          <div class="col-md-4">
+          <img src="imagens/youtube.png" alt="" class="imagemfooter mb-1"> <p><a href="https://www.youtube.com/@BiologandocomSteniosuxx" target="_blank" class="footerajuste">Youtube</a></p>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
 </body>
+
 </html>

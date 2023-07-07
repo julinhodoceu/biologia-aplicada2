@@ -215,3 +215,29 @@ color: white;
 .texto-preto {
     text-shadow: 2px 2px 2px black;
 }
+
+.parte-meio {
+    padding: 50px 50px;
+}
+
+.bgprodutos {
+    background-color: rgba(20, 68, 20, 0.808);
+    color: white;
+}
+
+.bgdestaque {
+    background-color: rgba(70, 131, 70, 0.486);
+}
+
+.card-img-top {
+    width: 90%;
+    height: auto;
+    padding-top: 10%;
+    align-self: center;
+    text-align: center;
+
+  }
+
+.bgbody {
+    background-color: rgb(226, 226, 226);
+}
